@@ -23,10 +23,10 @@
       <nav>
         
         <ul class="bar">
-             <a class="btn-bar" href="#hola"><li>HOLA</li></a> <!--Link: lleva a la sección de presentación-->
-             <a class="btn-bar" href="#conocimientos"><li>CONOCIMIENTOS</li></a><!--Link: lleva a la sección de "mis conocimientos" -->
-             <a class="btn-bar"  href="#proyectos"><li>PROYECTOS</li></a><!--Link: lleva la sección de "mis proyectos"-->
-             <a class="btn-contact" href="#contacto"><li class="button-contact">CONTACTO</li></a><!--Link: lleva a la sección de "contacto"-->
+             <li><a class="btn-bar" href="#hola">HOLA</a></li> <!--Link: lleva a la sección de presentación-->
+             <li><a class="btn-bar" href="#conocimientos">CONOCIMIENTOS</a></li><!--Link: lleva a la sección de "mis conocimientos" -->
+             <li><a class="btn-bar"  href="#proyectos">PROYECTOS</a></li><!--Link: lleva la sección de "mis proyectos"-->
+             <li class="button-contact"><a class="btn-contact" href="#contacto">CONTACTO</a></li><!--Link: lleva a la sección de "contacto"-->
        </ul> 
      
      </nav>
@@ -68,21 +68,21 @@
         <div class="container-icon"> <!--Comienzo de contenedor: imagenes svg de "mis conocimientos"-->
          
           <div class="icon-svg">
-            <div class="name">
+            <div class="name-icon">
              <img class="icon-svg-studies"  src="./svg/html-5.svg" alt="icono html">
              <figcaption>Html5</figcaption> <!--Mis conocimientos de HTML con imagen ilustrativa-->
             </div>
           </div> 
           
           <div class="icon-svg"> 
-             <div class="name">
+             <div class="name-icon">
               <img class="icon-svg-studies"  src="./svg/css.svg" alt="icono css 3">
               <figcaption>Css</figcaption> <!--Mis conocimientos de CSS-imagen SVG ilustrativa-->
              </div>
           </div>
           
           <div class="icon-svg"> 
-             <div class="name">
+             <div class="name-icon">
               <img class="icon-svg-studies"  src="./svg/sass (2).svg" alt="icono sass">
               <figcaption>Sass</figcaption> <!--Mis conocimientos de SASS-imagen SVG ilustrativa-->
              </div>
@@ -90,21 +90,21 @@
        
   
           <div class="icon-svg">
-             <div class="name">
+             <div class="name-icon">
               <img class="icon-svg-studies"  src="./svg/javascript (1).svg" alt="icono javaScrip">
               <figcaption>JavaScrip</figcaption> <!--Mis conocimientos de JAVASCRIP-imagen SVG ilustrativa-->
              </div>
           </div>
           
           <div class="icon-svg">
-             <div class="name">
+             <div class="name-icon">
               <img class="icon-svg-studies"  src="./svg/atom (2).svg" alt="icono react">
               <figcaption>Atom</figcaption> <!--Mis conocimientos de REACT-imagen SVG ilustrativa-->
              </div>
           </div>
           
           <div class="icon-svg">
-             <div class="name">
+             <div class="name-icon">
               <img class="icon-svg-studies"  src="./svg/github.svg" alt="icono git"> 
               <figcaption>Git Hub</figcaption> <!--Mis conocimientos de GIT-imagen SVG ilustrativa-->
              </div>
@@ -127,8 +127,8 @@
  <!--Final de sección de cita-->
 
  <!--Comienzo de sección "Mis proyectos"-->
-     <section id="proyectos"  class="my-projects"><!--Link-ancla "proyectos" de nav-footer -->     
-       <div class="my-title-projects"><!--Título y descripción-->
+     <section  id="proyectos" class="my-projects"><!--Link-ancla "proyectos" de nav-footer -->     
+       <div  class="my-title-projects"><!--Título y descripción-->
           <h2  class="my-title">Mis Proyectos</h2>
           <p class="p-description">Proyectos realizados en ADA</p>
        </div>
@@ -186,34 +186,28 @@
       <div class="info-social"><!--contenedor de titulo-descripción y lista de redes sociales-->
           <div class="container-title-p"><!--Contiene titulo y descripción-->
              <h2 class="my-title-contact">Contactame</h2>
-             <p class="p-contact">Sitios donde me podes contactar;</p>
+             <p class="p-contact">Redes donde me podes contactar!</p>
           </div>
           <!--Comienzo Lista de redes sociales-->
           <div class="div-list-icon">
             <ul class="ul-list-icon">
               <li class="list-icon-social">
-                 <a  class="link-icon-social" href="https://www.linkedin.com/in/doris-sandoval-17120921b">
+                 <a  class="link-icon-social" target="_black" href="https://www.linkedin.com/in/doris-sandoval-17120921b">
                  <i class="fab fa-linkedin-in fa-social"  aria-hidden="true"></i>
                   Doris Sandoval 
                  </a> 
               </li>
               <li class="list-icon-social">
-                 <a  class="link-icon-social" href="https://www.instagram.com/sandoval_dowiz/?hl=es">
+                 <a  class="link-icon-social" target="_black" href="https://www.instagram.com/sandoval_dowiz/?hl=es">
                  <i class="fab fa-instagram fa-social"  aria-hidden="true"></i>
-                  sandoval_dory
+                  sandoval_dowiz
                  </a>
               </li >
               <li class="list-icon-social">
-                 <a class="link-icon-social" href="https://github.com/DorySandoval">
+                 <a class="link-icon-social" target="_black" href="https://github.com/DorySandoval">
                  <i class="fab fa-github fa-social"  aria-hidden="true"></i>
                  DorySandoval
                  </a>
-              </li>
-              <li class="list-icon-social">
-                <a class="link-icon-social" href="https://github.com/DorySandoval">
-                <i class="fab fa-github fa-social"  aria-hidden="true"></i>
-                 DorySandoval
-                </a>
               </li>
            </ul>
          </div>
@@ -226,16 +220,16 @@
         <div class="sur-name-input-label">
           <div class="input-label">
              <label class="sur-name" for="name">Nombre*</label>
-             <input type="text" class="input-form" name="name" id="name" placeholder=" Nombre" required>
+             <input type="text" class="input-form-name" name="name" id="name" placeholder=" Nombre" required>
           </div>
           <div class="input-label">
              <label class="sur-name" for="surname">Apellido*</label>
-             <input type="text" class="input-form" name="surname" id="surname" placeholder=" Apellido" required>
+             <input type="text" class="input-form-surname" name="surname" id="surname" placeholder=" Apellido" required>
           </div>
         </div>
          <div class="input-label">
              <label class="sur-name-email-input" for="email">Email*</label>
-             <input type="email" class="input-form" name="email" id="email" placeholder="Ejemplo@gmail.com" required>
+             <input type="email" class="input-form" name="email" id="email" placeholder=" ejemplo@gmail.com" required>
          </div>
          <div class="input-label">
              <label class="message-input" for="Mensaje"> Mensaje*</label>
