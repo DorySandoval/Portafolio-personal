@@ -55,6 +55,20 @@ lleva a la sección de "Mis proyectos".</p>
 <p align="center">Llegamos al final de la pagina, donde podemos ver la misma lista de link anclas que se encuentra en la barra de navegación, además una lista de link con información de mis redes sociales.</p>
 <img src="https://github.com/DorySandoval/Portafolio-personal/blob/main/img-readme/Footer.png">
 <br>
+<h1>:sparkles:Diseño responsive:sparkles:</h1>
+<p align="center"><h1>:cherry_blossom:Diseño sección "HOLA":cherry_blossom:</h1></p>
+<br>
+<img src="https://github.com/DorySandoval/Portafolio-personal/blob/main/img-readme/Portafolio-responsive.png">
+<br>
+<p align="center"><h1>:cherry_blossom:Diseño sección "MIS CONOCIMIENTOS":cherry_blossom:</h1></p>
+<br>
+<img src="https://github.com/DorySandoval/Portafolio-personal/blob/main/img-readme/mis-estudios-responsive.png">
+<br>
+
+<p align="center"><h1>:cherry_blossom:Diseño sección "MIS PROYECTOS":cherry_blossom:</h1></p>
+<br>
+<img src="https://github.com/DorySandoval/Portafolio-personal/blob/main/img-readme/formulario-responsive.png">
+<br>
 
 
 
