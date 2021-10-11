@@ -37,14 +37,9 @@ nav {
     text-align: end;
     font-weight: lighter;
     word-spacing: 1rem;
-     
+      padding: 2em;
 }
 
-
-.bar {
-    padding: 1.5em;
-    
-}
 li {
     display: inline;
      
@@ -63,7 +58,7 @@ li {
     
 }
 
-.button-nav-contact {
+.button-nav-contact-link {
     color: rgb(228, 96, 140);
     text-decoration: none;
     font-size: 1rem;
@@ -73,7 +68,7 @@ li {
     background-color:#f5c6e7;
 }
 
-.button-nav-contact:hover {
+.button-nav-contact-link:hover {
     border-radius: 2em;
     box-shadow: 0em 0em 0.5em 0em #fefeff;
     color:#edf3f3;
@@ -593,7 +588,7 @@ footer {
 
     }
     .img-avatar {
-        height: 36em;
+        
         margin-top: 2em;
     }
     
@@ -605,16 +600,24 @@ footer {
 
      .p-dedication {
          margin-top: 1.5em;
-     }
+    }
      .button-project-div {
         margin-top: 3em;
-     }
+    }
      .button-project {
         padding: 0.8em 1em;
     }
   }
 
-
+  @media (max-width:400px){
+    .img-avatar-gamer {
+        height: 0;
+        margin: 0;
+    }
+    
+    
+  }
+  
 /***my-studies**/
 @media (max-width:600px){
      .container-icon {
