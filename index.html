@@ -13,7 +13,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet"><!--Fin de links de google fonts-->
-      
+        <link rel="icon"  type="img/svg" href="./svg/media-luna.svg">
       </head>
     <body>
     <header>
@@ -23,10 +23,10 @@
       <nav>
         
         <ul class="bar">
-             <li><a class="btn-bar" href="#hola">HOLA</a></li> <!--Link: lleva a la sección de presentación-->
-             <li><a class="btn-bar" href="#conocimientos">CONOCIMIENTOS</a></li><!--Link: lleva a la sección de "mis conocimientos" -->
-             <li><a class="btn-bar"  href="#proyectos">PROYECTOS</a></li><!--Link: lleva la sección de "mis proyectos"-->
-             <li class="button-contact"><a class="btn-contact" href="#contacto">CONTACTO</a></li><!--Link: lleva a la sección de "contacto"-->
+             <li><a class="button-nav" href="#hola">HOLA</a></li> <!--Link: lleva a la sección de presentación-->
+             <li><a class="button-nav" href="#conocimientos">CONOCIMIENTOS</a></li><!--Link: lleva a la sección de "mis conocimientos" -->
+             <li><a class="button-nav"  href="#proyectos">PROYECTOS</a></li><!--Link: lleva la sección de "mis proyectos"-->
+             <li class="button-nav-contact"><a class="button-nav-contact" href="#contacto">CONTACTO</a></li><!--Link: lleva a la sección de "contacto"-->
        </ul> 
      
      </nav>
@@ -46,13 +46,13 @@
                 <h1 class="title-name">Doris Sandoval</h1>
                 <p class="p-dedication"> Futura FrontEnd, mamá fit y fan del mate.</p>
               </div>  
-              <div class="btn-boton-div"> <!--Link que lleva a la seccion de "mis proyectos"-->
-               <a href="#proyectos" class="btn-neon">Lo que hago</a>  
+              <div class="button-project-div"> <!--Link que lleva a la seccion de "mis proyectos"-->
+               <a href="#proyectos" class="button-project">Lo que hago</a>  
               </div>
            </div> 
        
            <div class="img-avatar"> <!--"avatar" imagen representativa-->
-              <img class="imgpage" src="./svg/gamer.svg" alt="avatar">
+              <img class="img-avatar-gamer" src="./svg/gamer.svg" alt="avatar">
            </div>
          </div>
 
@@ -116,7 +116,7 @@
      <section class="container-cite">
        <div class="sectioncite">
           <div class="comillas">
-            <img class="imgcomillas" src="./svg/destellos.svg"  alt="unicornio"><!--Imagen svg de relleno-->
+            <img class="imgcomillas" src="./svg/unicorn.svg"  alt="unicornio"><!--Imagen svg de relleno-->
           </div>
           <div class="text-cite">
             <cite>"Trabajar duro es importante, pero hay algo que importa más: creer en ti mismo"</cite>
@@ -128,10 +128,11 @@
 
  <!--Comienzo de sección "Mis proyectos"-->
      <section  id="proyectos" class="my-projects"><!--Link-ancla "proyectos" de nav-footer -->     
-       <div  class="my-title-projects"><!--Título y descripción-->
+      <div  class="my-title-projects"><!--Título y descripción-->
           <h2  class="my-title">Mis Proyectos</h2>
           <p class="p-description">Proyectos realizados en ADA</p>
-       </div>
+      </div>
+      <div class="project-img-name">
        <div class="project">  <!--Comienzo de contenedor: imagenes svg ilustrativas de los proyectos realizados-->
          <div class="img-projects"> 
             <a href="#" class="name-projects">
@@ -176,6 +177,7 @@
            </a>
          </div> 
        </div>
+      </div>
      </section>
     <!--Final de sección "mis proyectos"-->
      
@@ -248,10 +250,10 @@
       <footer>
       <div class="footer-list-nav"> <!--Lista de Links-ancla del footer-->
          <ul class="bar">
-          <li><a class="btn-footer" href="#hola">HOLA</a></li><!--Link-ancla: lleva a la sección de "Presentación"-->
-          <li><a class="btn-footer" href="#conocimientos">CONOCIMIENTOS</a></li><!--Link-ancla: lleva a la sección de "Mis conocimientos"-->
-          <li><a class="btn-footer"  href="#proyectos">PROYECTOS</a></li><!--Link-ancla: lleva a la sección de "Mis proyectos"-->
-          <li><a class="btn-footer" href="#contacto">CONTACTO</a></li><!--Link-ancla: lleva a la sección de "Contacto"-->
+          <li><a class="button-footer" href="#hola">HOLA</a></li><!--Link-ancla: lleva a la sección de "Presentación"-->
+          <li><a class="button-footer" href="#conocimientos">CONOCIMIENTOS</a></li><!--Link-ancla: lleva a la sección de "Mis conocimientos"-->
+          <li><a class="button-footer"  href="#proyectos">PROYECTOS</a></li><!--Link-ancla: lleva a la sección de "Mis proyectos"-->
+          <li><a class="button-footer" href="#contacto">CONTACTO</a></li><!--Link-ancla: lleva a la sección de "Contacto"-->
         </ul> <!--Fin de lista links-ancla del footer-->
       </div>  
       <div class="footer-icon"><!--Contenedor links de Redes Sociales personales-->
