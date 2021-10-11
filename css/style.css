@@ -528,7 +528,7 @@ footer {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1rem;
     color: rgb(255, 255, 255);
-    margin-top: 5%;
+    margin-top: 2em;
     text-align: center;
     text-shadow: 0.1rem 0.1rem #0c5591 , 0.2rem 0.2rem #1a83e6;
 }
@@ -566,6 +566,13 @@ footer {
 
 
 /*****primera parte de la pagina, presentación y avatar***/
+@media (max-width:900px){
+    
+  body {
+    box-shadow: none; 
+   
+  }
+}
 @media (max-width:1100px){
     .introduction-presentation-img-avatar{
     padding: 8em 1em 8em 2em;
@@ -592,7 +599,7 @@ footer {
     
      .title-name {
         text-shadow: 0.1rem 0.1rem #000000 , 0.3rem 0.3rem #19193a;
-        font-size: 5.5rem;
+        font-size: 4rem;
     }
 
 
@@ -620,6 +627,15 @@ footer {
      margin: 0.2em;
      padding: 0.6em;
      }
+}
+
+/****cite****/
+@media (max-width: 400px){
+    .sectioncite {
+
+      margin: 0;
+      border-radius: 0;
+  } 
 }
     /****Mis proyectos****/
 
@@ -681,9 +697,12 @@ footer {
 
 }
 
-
-
-
+@media (max-width: 400px){
+   .img-projects {
+      margin: 1em;
+      padding: 0;
+    }
+}
 
    /*********form-contact**********/
 @media (max-width: 900px) {
@@ -693,18 +712,19 @@ footer {
         transition: 00.2s;
         min-width: 300px;
     }
-  
+    
     .info-contact {
         display: flex;
         flex-direction: column;
         border-radius: 0;
+        padding: 4em 0em;
     }
-    
+    .info-social:first-of-type {
+        padding-left: 1.5em;
+    }
     .info-social {
         width: 100%;
     }
-    
-
     
     .form-message {
         width: 100%;
@@ -727,20 +747,27 @@ footer {
 
 @media (max-width:900px){
     .ul-list-icon {
-            display: flex;
-            flex-wrap: wrap;
-            width: 90%;
+         display: flex;
+         flex-wrap: wrap;
+         width: 90%;
     }
-    .list-icon-social {
-     max-width: 300px;
-    }
+    
 }
 
  
-
+@media (max-width:400px){
+   .ul-list-icon {
+       display: flex;
+       flex-wrap: wrap;
+       width: 100%;
+    }
+}
 /*****footer******/
 
 @media (max-width:1000px) {
+    footer {
+        padding: 4em 0;
+    }
     .footer-list-nav {
         display: none;
     }
@@ -749,7 +776,19 @@ footer {
 
 @media (max-width:400px){
     .footer-icon {
-        flex-wrap: nowrap;
-       
-  }
+        flex-wrap: wrap;  
+     }
+    .fa-social-footer {
+        font-size: 1rem;
+ 
+    }
 }
+/****my-title***/
+
+@media (max-width:400px){
+    .my-title {
+        font-size: 2rem;
+    } 
+}
+
+
