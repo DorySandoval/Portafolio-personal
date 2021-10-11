@@ -756,10 +756,19 @@ footer {
 
  
 @media (max-width:400px){
+    .contact-form-info-social {
+         min-width: 0;
+     }
+        
+
    .ul-list-icon {
        display: flex;
        flex-wrap: wrap;
        width: 100%;
+    }
+     
+    .form-message {
+        width: 90%;
     }
 }
 /*****footer******/
